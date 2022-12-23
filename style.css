@@ -1,0 +1,44 @@
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Open sans";
+  background: #c2c2c2;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 950px;
+  background: white;
+  box-shadow: 0 4px 0 4px  #858585;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem auto;
+  
+}
+
+form {
+  display: flex;
+}
+
+button {
+  background: #3678bf;
+  color: white;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 4px 16px;
+}
+
+input {
+  flex-grow: 1;
+  border: 2px solid #e6e6e6;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 8px;
+  margin-right: 12px;
+}
